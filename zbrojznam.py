@@ -1,4 +1,4 @@
-n=int(input("Unesite broj:  "))
+n=int(input("Unesite broj:  ")) # Unesite prirodan broj 
 zbroj=0
 while n!=0:
     z=n%10
