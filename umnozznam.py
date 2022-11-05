@@ -1,8 +1,7 @@
 n=int(input("Unesite broj:  "))
-zbroj=0
+umnoz=0
 while n!=0:
     z=n%10
-    zbroj=zbroj+z
+    umnoz=umnoz*z
     n=n//10
-print(zbroj)
-
+print(umnoz)
