@@ -1,7 +1,7 @@
 n=int(input("Unesite broj:  "))
-umnoz=0
+umnoz=1
 while n!=0:
-    z=n%10
-    umnoz=umnoz*z
-    n=n//10
+    z=n%10     # zadnja znamenka
+    umnoz=umnoz*z # umnozak zadnje znamenke i prethodne
+    n=n//10  # brisanje znamenke
 print(umnoz)
